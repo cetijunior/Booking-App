@@ -1,20 +1,47 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import Entry from './screens/Entry';
+import Login from './screens/Login';
+import Signup from './screens/Signup';
+import Home from './screens/Home';
+import UserProfile from './screens/UserProfile';
+import Profile from './screens/Profile';
+import Book from './screens/Book';
 
-export default function App() {
+
+
+
+
+
+
+const Stack = createNativeStackNavigator();
+
+const App = () => {
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+    <NavigationContainer>
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+      <Stack.Navigator
+        initialRouteName="Entry"
+        screenOptions={{
+          headerShown: false, // This hides the header globally for all screens
+        }}
+      >
+
+        <Stack.Screen name="Entry" component={Entry} />
+        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Signup" component={Signup} />
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="User" component={UserProfile} />
+        <Stack.Screen name="Profile" component={Profile} />
+        <Stack.Screen name="Book" component={Book} />
+
+
+
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+};
+
+export default App;
