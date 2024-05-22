@@ -11,19 +11,19 @@ const Home = ({ navigation, route }) => {
 
 
     const doctor = {
-        name: 'Dr. Nat Romanof',
+        name: 'Dr. Nat Roman',
         title: 'Senior Surgeon',
         specialty: 'Cardiologist and Surgeon',
         imgsrc: require('../assets/surgeon.png'),
         workHours: '10:30 AM - 3:30 PM',
         fee: '12$',
-        location: 'Mirpur Medical College and Hospital',
+        location: 'Mirier Medical College and Hospital',
         reviews: '(96 reviews)',
         patients: '10',
         years: '3+',
         rating: '4.9',
         review: '90+',
-        about: 'Dr. Ali Uzair is the top most cardiologist specialist in Crist Hospital in London, UK. He achived several awards for her wonderful contribution',
+        about: 'Dr. Nat Roman is the top most cardiologist specialist in Christ Hospital in London, UK. She achieved several awards for her wonderful contribution',
 
     }
 
@@ -134,7 +134,7 @@ const Home = ({ navigation, route }) => {
                 </View>
 
                 <ScrollView className='flex -mt-20 space-y-4 h-full '>
-                    <View classname='flex flex-col mb-20 space-y-4'>
+                    <View className='flex flex-col mb-20 space-y-4'>
 
 
                         <View className='flex flex-row justify-between w-full bg-white p-6 mb-4 rounded-xl shadow-md '>

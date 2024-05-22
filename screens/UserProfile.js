@@ -92,7 +92,7 @@ const Book = ({ navigation, route }) => {
                         <View className='flex flex-row w-full items-center justify-start bg-white h-28 rounded-3xl shadow-2xl'>
                             <View className=' flex flex-row items-center justify-evenly w-full'>
                                 <View className='flex flex-col items-start bg-[#5fddd74d] mx-2 p-3 space-y-2 rounded-2xl'>
-                                    <Text className='font-semibold'>Dr Agrita</Text>
+                                    <Text className='font-semibold'>Dr Nat</Text>
                                     <Text className='italic'>Teeth Check</Text>
                                     <View className='flex flex-row space-x-2'>
                                         <Text className='font-semibold'>Mon</Text>
@@ -100,7 +100,7 @@ const Book = ({ navigation, route }) => {
                                     </View>
                                 </View>
                                 <View className='flex flex-col items-start bg-[#5fddd74d] mx-2 p-3 space-y-2 rounded-2xl'>
-                                    <Text>Dr Agrita</Text>
+                                    <Text>Dr Nat</Text>
                                     <Text>Teeth Check</Text>
                                     <View className='flex flex-row space-x-2'>
                                         <Text className='font-semibold'>Mon</Text>
@@ -108,7 +108,7 @@ const Book = ({ navigation, route }) => {
                                     </View>
                                 </View>
                                 <View className='flex flex-col items-start bg-[#5fddd74d] mx-2 p-3 space-y-2 rounded-2xl'>
-                                    <Text>Dr Agrita</Text>
+                                    <Text>Dr Nat</Text>
                                     <Text>Teeth Check</Text>
                                     <View className='flex flex-row space-x-2'>
                                         <Text className='font-semibold'>Mon</Text>

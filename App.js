@@ -8,6 +8,8 @@ import Home from './screens/Home';
 import UserProfile from './screens/UserProfile';
 import Profile from './screens/Profile';
 import Book from './screens/Book';
+import Navbar from './screens/home/Navbar';
+
 
 
 
@@ -36,6 +38,8 @@ const App = () => {
         <Stack.Screen name="User" component={UserProfile} />
         <Stack.Screen name="Profile" component={Profile} />
         <Stack.Screen name="Book" component={Book} />
+        <Stack.Screen name="Navbar" component={Navbar} />
+
 
 
 

@@ -95,7 +95,7 @@ const Book = ({ navigation, route }) => {
 
                     <View className='pb-8 space-y-2'>
                         <View className='flex flex-row items-center justify-between w-full py-2 mt-2'>
-                            <Text className='font-semibold text-xl text-black z-20'>Avaliable Time</Text>
+                            <Text className='font-semibold text-xl text-black z-20'>Available Time</Text>
                         </View>
 
                         <View className='flex flex-row justify-center items-center space-x-4 w-full'>

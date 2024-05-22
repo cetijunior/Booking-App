@@ -43,7 +43,7 @@ const Profile = ({ navigation, route }) => {
             {/* Doctor */}
 
             <View className='flex flex-col justify-center object-cover items-start text-xl mt-5'>
-                <View className='relativve'>
+                <View className='relative'>
                     <Image
                         className='w-96 h-64 rounded-t-[30px]'
                         source={imgSrc}
